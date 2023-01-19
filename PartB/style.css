@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    background: #daf5a3;
+}
+
+.title {
+    position: fixed;
+    left: 50%;
+    margin: 0 0 0 -150px;
+}
+
+nav {
+    background: forestgreen;
+    height: 38px;
+}
+
+nav:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+nav a {
+    background: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    float: right;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    background: darkolivegreen;
+}
+
+nav a:first-child {
+    float: left;
+}
+
+.coffee-shop-img {
+    height: calc(100vh - 44px);
+    width: 100vw;
+}
+
+.coffee-video {
+    height: 50vh;
+}
+
+.subTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subTitle > * {
+    margin-top: 20px;
+}
+
+table {
+    margin: 10px 10%;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table input[type=number] {
+    width: 87%;
+}
+
+button {
+    border-radius: 0;
+    padding: 5px 10px;
+}
+
+form > div {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form > div label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+form > div input {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.form-submit {
+    width: auto;
+    padding: 10px 20px;
+    background: darkseagreen;
+    border: none;
+}
+
+.form-submit:hover {
+    background: darkgreen;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: forestgreen;
+    width: 99%;
+    text-align: right;
+    padding: 10px;
+}
+
+.about-us-text {
+    margin: 0 40px;
+    font-size: 1.2em;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.media > * {
+    align-self: center;
+}
+
+.coffee-video {
+    height: 50vh;
+}
