@@ -4,6 +4,8 @@ Name - Rajat Sharma
 NUID - 002736944
 Subject - Web Design and User Experience (INFO 6150)
 
+Roast is a website that helps to book table reservation and order coffee - takeaway or on table. 
+
 Main tags used in assignment1 - 
 1. Favicon - Used Link tag with rel="icon" to add icon in tab name.
 2. Table - To display On table order Menu items.

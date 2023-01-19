@@ -4,6 +4,8 @@ Name - Rajat Sharma
 NUID - 002736944
 Subject - Web Design and User Experience (INFO 6150)
 
+Madras Coffee House is a plantation site and this website provide tour and media related to tour.
+
 Main tags used in assignment 2 - 
 1. Audio - Used audio tag to tell about the Coffee history.
 2. Video - Used it to showcase recent coffee making class video
